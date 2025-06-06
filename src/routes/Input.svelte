@@ -13,10 +13,10 @@
 </script>
 
 <div
-	class={`group relative flex h-12 w-10 items-center justify-center overflow-hidden rounded-lg border ${!numbers[index] ? 'border-[#798694]' : 'border-[#3C8AC6]'} px-3 text-2xl ${
+	class={`${index === 2 && 'mr-2'} group relative flex h-12 w-10 items-center justify-center overflow-hidden rounded-lg border ${!numbers[index] ? 'border-[#798694]' : 'border-[#3C8AC6]'} px-3 text-2xl ${
 		isComplete && !isCorrect
 			? 'border-rose-500 bg-[#FEF7F6] text-rose-500'
-			: 'text-[#3C8AC6]  focus-within:border-[#3C8AC6]'
+			: 'border-[#3C8AC6]  text-[#3C8AC6]'
 	}`}
 >
 	<input

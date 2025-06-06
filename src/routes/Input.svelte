@@ -38,21 +38,6 @@
 	>
 		{numbers[index]}
 	</span>
-	<!-- <input -->
-	<!-- 	id={`Input${index}`} -->
-	<!-- 	class={`no-cursor w-4 border-[#3C8AC6] focus:border-b focus:outline-none ${ -->
-	<!-- 		isComplete && !isCorrect ? 'bg-[#FEF7F6] text-rose-500' : 'text-[#3C8AC6]' -->
-	<!-- 	}`} -->
-	<!-- 	type="number" -->
-	<!-- 	maxlength="1" -->
-	<!-- 	oninput={(event: any) => { -->
-	<!-- 		if (!event.target) return; -->
-	<!-- 		const value = event.target?.value.slice(0, 1); -->
-	<!-- 		handleInput(index)(value); -->
-	<!-- 		event.target.value = value; -->
-	<!-- 	}} -->
-	<!-- 	onkeydown={handleKeyNavigation(index)} -->
-	<!-- /> -->
 </div>
 
 <style>

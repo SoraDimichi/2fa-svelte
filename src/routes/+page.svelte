@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '../app.css';
 	import Button from './Button.svelte';
 	import Input from './Input.svelte';
 	import Lock from './Lock.svelte';

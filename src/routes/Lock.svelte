@@ -16,7 +16,7 @@
 			/>
 		</svg>
 		<div
-			class={`absolute top-[-15px] right-[5px] z-3 grid h-[1px] w-[1px] items-start ${isComplete && isCorrect && 'animate-unlocks'}`}
+			class={`absolute top-[-15px] right-[6.5px] z-3 grid h-[0] w-[0] items-start ${isComplete && isCorrect && 'animate-unlocks'}`}
 		>
 			<svg
 				fill={!isComplete ? '#0794ff' : isCorrect ? '#1AAF82' : '#FD4B63'}
